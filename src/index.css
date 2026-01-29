@@ -1,0 +1,51 @@
+/* RESET DASAR */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* BACKGROUND FULL LAYAR */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f3f4f6; /* abu terang */
+  color: #111827; /* teks gelap biar kebaca */
+}
+
+/* Hapus center bawaan Vite */
+body {
+  display: block;
+}
+
+/* Judul */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Style tombol biar cocok sama kartu putih */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #111827;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Input biar rapi */
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
